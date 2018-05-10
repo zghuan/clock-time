@@ -1,0 +1,23 @@
+/* 路由切换过渡动画 */
+.child-view {
+    position: absolute;
+    width:100%;
+    /* margin-bottom: 1.1rem;  */
+    transition: all .5s cubic-bezier(.55,0,.1,1);
+    }
+    .slide-left-enter, .slide-right-leave-active {
+      opacity: 0;
+      -webkit-transform: translate(100%, 0);
+      transform: translate(100%, 0);
+    }
+    .slide-left-leave-active, .slide-right-enter {
+      opacity: 0;
+      -webkit-transform: translate(-100%, 0);
+      transform: translate(-100%, 0);
+    }
+
+  .router-link-active {color:#000}
+  .yd-tabbar-dot{background: gray !important;}
+  .yd-tabbar-fixed{z-index:0;position: absolute;bottom: 0}
+  #app{width: 100%;height: 100%;position: fixed;bottom:0;}
+ 

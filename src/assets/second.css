@@ -1,0 +1,49 @@
+
+    .yd-btn-block{font-family: "Microsoft","微软雅黑";margin-top: 0;background:transparent;border: 2px solid #fff;border-radius: 5%;
+        font-family: "Microsoft","微软雅黑";margin:0.1rem 0 ;color:#fff}
+    .second{background-image:url('../../static/image/bg.jpg');background-size: cover;}
+    .timeCount{width: 5rem;height: 5rem;text-align: center;}
+    .timeCount span{font-size: 1.2rem;line-height: 5rem;
+    text-shadow:
+     white 0px 0px 10px,
+     white 0px 0px 20px, 
+     white 0px 0px 100px;
+    }
+    .circleprogress{
+        position: relative;
+        margin: 0.4rem auto;
+        width: 5rem;
+        height: 5rem;
+        border:3px solid #34679a;
+        border-radius: 50%;
+        color:#fff
+    }
+    .bottom{
+        overflow:auto;
+        height: 4rem;
+        /* margin-bottom: 1.1rem;  */
+        font-size: 0.4rem;
+        color:#fff;
+         background: rgba(0,0,0,0.5); 
+    } 
+    .abc{
+        width: 0.2rem;height: 0.2rem;
+        position: absolute;
+        left: 48%;top:-0.1rem;
+        background: #fff;
+        box-shadow:
+     white 0px 0px 10px,
+     white 0px 0px 10px,
+     white 0px 0px 20px, 
+      white 0px 0px 20px, 
+     white 0px 0px 100px,
+     white 0px 0px 100px;
+        border-radius: 50%;
+        transform-origin: 0.1rem 2.6rem; 
+        animation: time 60s infinite linear;
+    }
+    @keyframes time {
+      to {
+        transform: rotate(360deg);
+      }
+    }

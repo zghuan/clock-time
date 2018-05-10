@@ -1,0 +1,33 @@
+    .back{position: fixed;text-align: center;z-index: 999;top:0;left:0;z-index: 999;
+    width: 18px;height: 50px;color:#fff;line-height: 50px;background: rgba(0,0,0,0.8)}
+    .ordercity:active{background: rgb(222,222,222);}
+    .searchcity{position: fixed;top: 0;z-index: 998;width: 100%;}
+    .citybrage{margin:auto;position: absolute;left: 0;right: 0;bottom: 20%;width: 100%;height: 0.5rem;line-height: 0.5rem;text-align: center}
+    .white{height: 5rem;width: 100%; position: relative;background:url('../../static/image/white.png');
+    background-size: cover;background-position: center center;color:#000;}
+    .black{height: 5rem;width: 100%; position: relative;background:url('../../static/image/black.png');
+    background-size: cover;background-position: center center;color:#fff;}
+    .allcity{margin-top: 1rem;}
+    .current{background: #fff}
+    .listactive:active{background: rgb(222,222,222);}
+
+    
+    .clockmodel div{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .h{
+    background: url('../../static/image/h.png') no-repeat center center;
+    background-size: cover;
+    }
+    .m{
+    background: url('../../static/image/m.png') no-repeat  center center;
+    background-size: cover;
+    }
+    .s{
+    background: url('../../static/image/s.png')  no-repeat center center;
+    background-size: cover;
+    }
